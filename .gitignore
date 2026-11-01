@@ -1,0 +1,56 @@
+# ##############################################################################
+# Angular - Fichiers de build et dépendances
+# ##############################################################################
+dist/
+.angular/
+node_modules/
+
+# ##############################################################################
+# Fichiers de log et de cache npm/yarn
+# ##############################################################################
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+.pnpm-debug.log*
+.npm
+.eslintcache
+
+# ##############################################################################
+# Fichiers d'environnement et secrets (À NE JAMAIS COMMIT)
+# ##############################################################################
+.env
+.env.local
+.env.*.local
+src/environments/environment.development.ts
+src/environments/environment.ts
+
+# ##############################################################################
+# Tests et Couverture de code
+# ##############################################################################
+/coverage
+/.nyc_output
+
+# ##############################################################################
+# IDEs et Éditeurs de texte
+# ##############################################################################
+# JetBrains (WebStorm, IntelliJ, etc.)
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# Visual Studio Code
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+.history/
+*.code-workspace
+
+# Systèmes d'exploitation
+.DS_Store
+Thumbs.db
